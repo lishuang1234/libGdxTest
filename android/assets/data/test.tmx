@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="caodi1" tilewidth="32" tileheight="32">
+  <image source="caodi1.jpg" width="650" height="423"/>
+ </tileset>
+ <tileset firstgid="261" name="xueren1" tilewidth="32" tileheight="32">
+  <image source="xueren1.jpg" width="225" height="225"/>
+ </tileset>
+ <layer name="块层 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0ddKHFAUBdAZFRvYwAY2sIENNPrrib0XsGtiT6LG2HvvbfkBinMffJoD6+1w9ubeSCQ+8YlPfGKf5GgkkkIqaaRHvyY3Q04mWWSTE5Ab0j3XTh75FFAYkBvSvchOMSWUUhaQG9K93E4FlVRRHZAb0r3GTi111NMQkBvSvdFOE99opiUgN9bu3/lBK22000EnXXTTQy999DPAIEMMM/JO94/ujTLGOBNMMsU0M8zyk1/MMc8CiyyxzAq/+RPDvb+sssY6/9jgP5tssc0Ou+yxzwGHHHHMCacx3DvjnAsuueKaG265454HHnnimZe3T/KWURJIJCn6+Xuvdc1mHQ==
+  </data>
+ </layer>
+ <objectgroup name="Actors">
+  <object name="player" x="319" y="320" width="65" height="64"/>
+ </objectgroup>
+</map>

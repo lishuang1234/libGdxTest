@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.ls.actor;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -19,8 +19,8 @@ public class Mario extends Actor {
 	public static float stateTime;
 	Texture texture;
 	TextureRegion currentFrame;
-	ImageButton buttonL;
-	ImageButton buttonR;
+	public ImageButton buttonL;
+	public ImageButton buttonR;
 	Animation aniRight;
 	Animation aniLeft;
 	Animation aniIdle;
@@ -37,13 +37,14 @@ public class Mario extends Actor {
 		state = STATE.Idle;
 		this.show();
 	}
-/**持续被调用，按钮可以改变位置得到立即响应*/
+
+	/** 持续被调用，按钮可以改变位置得到立即响应 */
 	@Override
 	public void draw(Batch batch, float parentAlpha) {
 		// TODO Auto-generated method stub
 		super.draw(batch, parentAlpha);
 		stateTime += Gdx.graphics.getDeltaTime();
-		System.out.println("state::" + stateTime);
+		// System.out.println("state::" + stateTime);
 		this.update();
 		this.check();
 		batch.draw(currentFrame, x, y);
@@ -119,7 +120,8 @@ public class Mario extends Actor {
 			}
 		});
 	}
-/**更新坐标*/
+
+	/** 更新坐标 */
 	public void update() {
 		if (state == STATE.Right) {
 			this.x += 1.5;
