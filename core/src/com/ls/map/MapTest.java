@@ -32,7 +32,7 @@ public class MapTest implements ApplicationListener {
 		map = new TmxMapLoader().load("data/test.tmx");
 		renderer = new OrthogonalTiledMapRenderer(map);
 		mapLayers = map.getLayers();
-		MapLayer mapLayer = mapLayers.get(0);
+		//MapLayer mapLayer = mapLayers.get(0);
 
 		System.out.println("layersCount:" + mapLayers.getCount());
 		String name = map.getLayers().get(1).getName();

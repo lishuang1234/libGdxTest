@@ -1,0 +1,68 @@
+
+potato1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+potato
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 6
+potato
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 7
+potato
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 8
+potato
+  rotate: false
+  xy: 2, 52
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 5
+potato
+  rotate: false
+  xy: 52, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 4
+potato
+  rotate: false
+  xy: 52, 52
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 3
+potato
+  rotate: false
+  xy: 102, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 2
+potato
+  rotate: false
+  xy: 102, 52
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 1
+potato
+  rotate: false
+  xy: 152, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0

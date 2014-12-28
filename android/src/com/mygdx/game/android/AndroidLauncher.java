@@ -12,6 +12,8 @@ import com.ls.camera.OrthographicCameraTest;
 import com.ls.map.Collide;
 import com.ls.map.MapTest;
 import com.ls.view.TexturePackerTest;
+import com.mygdx.game.ImageTest;
+import com.mygdx.game.MyGdxGame;
 import com.mygdx.game.StagesTest;
 
 public class AndroidLauncher extends AndroidApplication {
@@ -19,7 +21,6 @@ public class AndroidLauncher extends AndroidApplication {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new ActionTest(), config);
-
+		initialize(new Collide(), config);
 	}
 }
